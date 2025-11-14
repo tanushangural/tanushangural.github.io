@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tanush Angural - Portfolio Website">
+    <title>Tanush Angural - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Tanush Angural</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I'm <span class="highlight">Tanush Angural</span></h1>
+            <p class="hero-subtitle">SDE-2 Backend Engineer | • Java • Golang</p>
+            <p class="hero-description">Building scalable microservices & distributed systems | 4 years experience | 1.5M+ requests/day</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="#projects" class="btn btn-secondary">View My Work</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/tanushangural" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/tanush-angural" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://leetcode.com/tanusharya" target="_blank" aria-label="LeetCode"><i class="fas fa-code"></i></a>
+                <a href="mailto:tanusharya7@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Tanush Angural, a Backend Software Engineer with <strong>4 years of experience</strong> specializing in Java, Golang, microservices architecture, and distributed systems. Currently working as <strong>Software Engineer 2 at New Relic</strong>, where I design and develop observability solutions for enterprise customers.</p>
+                    <p>I've delivered platforms handling <strong>1.5M+ requests/day</strong> and <strong>18GB/day data ingestion</strong> across Fintech and Observability domains. My expertise lies in building highly scalable, cloud-native applications with strong focus on system design, performance tuning, and production reliability.</p>
+                    <p>I'm passionate about open-source contributions (CNCF/OpenTelemetry), solving complex DSA problems (<strong>1000+ problems solved, 4-Star on CodeChef</strong>), and continuously learning cutting-edge technologies. Former <strong>CTO at Factum Org (College Tech Club)</strong> where I led tech initiatives including a coding hackathon with 2000+ participants.</p>
+                    <div class="resume-download">
+                        <a href="https://drive.google.com/uc?export=download&id=1JitR3QkccvtORDbYsRDQHf-9shSWh_jL" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="profile.jpg" alt="Tanush Angural Profile Picture" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Golang</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Backend & Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">Gin (Go)</span>
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">Microservices</span>
+                        <span class="skill-tag">JWT/OAuth 2.0</span>
+                        <span class="skill-tag">Distributed Systems</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">MSSQL</span>
+                        <span class="skill-tag">Redis</span>
+                        <span class="skill-tag">Kafka</span>
+                        <span class="skill-tag">OpenTelemetry</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS (EC2, S3)</span>
+                        <span class="skill-tag">Terraform (IaC)</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> Core Concepts</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">System Design</span>
+                        <span class="skill-tag">DSA (1000+ problems)</span>
+                        <span class="skill-tag">Low-Level Design</span>
+                        <span class="skill-tag">OOP</span>
+                        <span class="skill-tag">High Availability</span>
+                        <span class="skill-tag">Scalability</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-line"></i> Monitoring & Observability</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">New Relic</span>
+                        <span class="skill-tag">OpenTelemetry</span>
+                        <span class="skill-tag">Prometheus</span>
+                        <span class="skill-tag">Sentry</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer 2 (SDE-2)</h3>
+                        <h4>New Relic • Hyderabad</h4>
+                        <span class="timeline-date"><i class="far fa-calendar"></i> August 2024 - Present</span>
+                        <ul>
+                            <li><strong>Designed and developed New Relic's MSSQL Agent (nri-mssql)</strong> to monitor critical DB metrics including slow queries, wait types, blocking sessions, and query execution plans, improving observability for <strong>500+ enterprise clients</strong>
+                                <ul style="margin-top: 8px; margin-left: 20px;">
+                                    <li>Optimized ingestion using <strong>Golang concurrency (goroutines)</strong> for concurrent data fetching, enabling high-performance processing of large datasets</li>
+                                    <li>Achieved <strong>zero data loss at 18GB/day throughput</strong> and validated performance on production-scale environments</li>
+                                    <li>Reduced response time by <strong>30% via concurrent batch processing</strong></li>
+                                </ul>
+                            </li>
+                            <li>Built automated <strong>pre-release and release CI/CD pipelines</strong> for the MSSQL Agent, including:
+                                <ul style="margin-top: 8px; margin-left: 20px;">
+                                    <li>Unit and integration test suites</li>
+                                    <li>Multi-OS builds (Windows, Linux) with cross-compilation</li>
+                                    <li>S3 artifact uploads for distribution</li>
+                                    <li>Documentation updates and weekly master branch validations</li>
+                                </ul>
+                            </li>
+                            <li>Designed and implemented <strong>Infrastructure as Code (IaC) using Terraform</strong> to provision and manage AWS EC2 instances
+                                <ul style="margin-top: 8px; margin-left: 20px;">
+                                    <li>Automated instance lifecycle management including creation, start, and stop operations</li>
+                                    <li>Reduced manual provisioning time by <strong>90%</strong></li>
+                                    <li>Integrated with Grand Central (internal platform) for seamless automation</li>
+                                </ul>
+                            </li>
+                            <li><strong>Technologies:</strong> Golang, MSSQL, Terraform, Docker, AWS, Jenkins</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Software Development Engineer 1 (SDE-1)</h3>
+                        <h4>BharatPe • Gurugram</h4>
+                        <span class="timeline-date"><i class="far fa-calendar"></i> September 2022 - August 2024</span>
+                        <ul>
+                            <li><strong>Led development of Enterprise-wide Authorization Service (JWT/OAuth 2.0-based)</strong>
+                                <ul style="margin-top: 8px; margin-left: 20px;">
+                                    <li>Secured <strong>50+ frontend repositories and native mobile applications</strong> across all BharatPe product lines</li>
+                                    <li>Served as auth gateway for <strong>25+ microservices</strong>, processing <strong>1.5M+ requests/day with 99.99% uptime</strong></li>
+                                    <li>Implemented <strong>refresh token mechanism</strong> with 15-day expiry and OTP-based re-authentication after 30 days of inactivity</li>
+                                    <li>Handles all frontend app API authentication across the platform</li>
+                                </ul>
+                            </li>
+                            <li><strong>Owned Central Merchant Service Backend</strong> - core platform supporting merchant operations
+                                <ul style="margin-top: 8px; margin-left: 20px;">
+                                    <li>Powers <strong>25+ microservices</strong> including payments, lending, and swipe functionalities</li>
+                                    <li>Provides native APIs for Merchant App homepage</li>
+                                    <li>Scaled to handle <strong>10k daily merchant onboardings with 99.9% availability</strong></li>
+                                    <li>Optimized database queries, <strong>reducing latency by 15%</strong> through strategic indexing and Redis caching</li>
+                                    <li>Ensured seamless integration and functionality across distributed systems</li>
+                                </ul>
+                            </li>
+                            <li><strong>Revamped merchant onboarding flow</strong> with enhanced KYC and bank validation
+                                <ul style="margin-top: 8px; margin-left: 20px;">
+                                    <li>Optimized business documentation processes</li>
+                                    <li>Increased <strong>authentic transactional merchants by 20%</strong></li>
+                                    <li>Supporting <strong>10k onboardings/day</strong> with improved data quality</li>
+                                </ul>
+                            </li>
+                            <li><strong>Managed and optimized Central SMS Service</strong> for loan eligibility assessment
+                                <ul style="margin-top: 8px; margin-left: 20px;">
+                                    <li>Implemented API-driven regex configurations for efficient merchant transaction data filtering</li>
+                                    <li>Integrated Finbox and Algo360 Vendor for enhanced message analysis</li>
+                                    <li>Improved eligible loan matches by <strong>5%</strong></li>
+                                    <li>Reduced resource/infrastructure costs by <strong>25%</strong></li>
+                                    <li>Resolved critical bug in external vendor system, achieving additional <strong>50% cost savings</strong></li>
+                                </ul>
+                            </li>
+                            <li>Designed and optimized <strong>REST APIs</strong> for merchant and authorization platforms, improving scalability and end-to-end throughput</li>
+                            <li><strong>Technologies:</strong> Spring Boot, MySQL, MongoDB, Kafka, Redis, Docker, Jenkins, Devtron, Sentry, New Relic</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Software Development Engineer Intern (SDE Intern)</h3>
+                        <h4>BharatPe • Gurugram</h4>
+                        <span class="timeline-date"><i class="far fa-calendar"></i> May 2022 - August 2022</span>
+                        <ul>
+                            <li><strong>Built BharatPe Club 2.0</strong> - a comprehensive benefits and discounts platform serving <strong>300K+ merchants</strong>
+                                <ul style="margin-top: 8px; margin-left: 20px;">
+                                    <li>Developed <strong>real-time tax invoice and credit note system</strong> using Java's synchronous functions</li>
+                                    <li>Automated cashback processing with <strong>two Java schedulers</strong></li>
+                                    <li>Eliminated manual processing work, <strong>saving 2 person-days/month</strong></li>
+                                    <li>Ensured seamless merchant experience with instant invoice generation</li>
+                                </ul>
+                            </li>
+                            <li><strong>Technologies:</strong> Spring Boot, MySQL, Kafka, Redis, Devtron, Sentry, New Relic</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects & Contributions</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>New Relic MSSQL Agent (nri-mssql)</h3>
+                        <p>Production-grade observability agent for MSSQL databases. Captures slow queries, wait types, blocking sessions, and execution plans. Processes 18GB/day with zero data loss using concurrent batch processing and goroutines.</p>
+                        <div class="project-tech">
+                            <span>Golang</span>
+                            <span>MSSQL</span>
+                            <span>OpenTelemetry</span>
+                            <span>Docker</span>
+                            <span>AWS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/newrelic/nri-mssql" target="_blank"><i class="fas fa-external-link-alt"></i> Official Repo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Central Authorization Service</h3>
+                        <p>Enterprise-wide JWT/OAuth 2.0 authentication service at BharatPe. Secures 50+ frontend repositories, handles 1.5M+ requests/day with 99.1% uptime. Implements refresh token mechanism with OTP-based re-authentication.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>JWT</span>
+                            <span>Redis</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#contact"><i class="fas fa-info-circle"></i> Private/Enterprise</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>OpenTelemetry CumulativeToRate Processor</h3>
+                        <p>Open-source contribution to CNCF's OpenTelemetry Collector. Proposed and developed a processor to convert cumulative metrics into rate metrics using (currentValue-prevValue)/(currentTime-prevTime), with state management and reset handling.</p>
+                        <div class="project-tech">
+                            <span>Golang</span>
+                            <span>OpenTelemetry</span>
+                            <span>CNCF</span>
+                            <span>Prometheus</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/43976" target="_blank"><i class="fab fa-github"></i> Issue</a>
+                            <a href="https://github.com/open-telemetry/opentelemetry-collector-contrib" target="_blank"><i class="fas fa-external-link-alt"></i> Repository</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Central Merchant Service</h3>
+                        <p>Core platform integrating 25+ microservices at BharatPe. Powers merchant app homepage APIs, handles 10k daily onboardings. Optimized with indexing and caching to reduce latency by 15% while maintaining 98.3% availability.</p>
+                        <div class="project-tech">
+                            <span>Spring Boot</span>
+                            <span>Kafka</span>
+                            <span>MongoDB</span>
+                            <span>Redis</span>
+                            <span>Microservices</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#contact"><i class="fas fa-info-circle"></i> Private/Enterprise</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-comment-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Central SMS Service</h3>
+                        <p>Intelligent merchant transaction SMS parsing system for loan eligibility assessment. Reduced infrastructure cost by 25% through API-driven regex configurations. Resolved critical vendor bug, achieving additional 50% cost savings.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>MySQL</span>
+                            <span>Regex</span>
+                            <span>API Design</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#contact"><i class="fas fa-info-circle"></i> Private/Enterprise</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content-centered">
+                <p class="contact-intro">I'm always open to discussing backend engineering opportunities, open-source collaborations, or interesting technical challenges in distributed systems and microservices.</p>
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:tanusharya7@gmail.com">tanusharya7@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+919478422563">+91 94784 22563</a>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://linkedin.com/in/tanush-angural" target="_blank">Connect with me</a>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/tanushangural" target="_blank">@tanushangural</a>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <i class="fas fa-code"></i>
+                        <div>
+                            <h4>LeetCode</h4>
+                            <a href="https://leetcode.com/tanusharya" target="_blank">1000+ Problems Solved</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Tanush Angural. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/tanushangural" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/tanush-angural" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://leetcode.com/tanusharya" target="_blank" aria-label="LeetCode"><i class="fas fa-code"></i></a>
+                <a href="mailto:tanusharya7@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -210,10 +210,15 @@ strong {
 
 .hero-buttons {
     display: flex;
-    gap: 20px;
+    gap: 15px;
     justify-content: center;
     margin-bottom: 30px;
     animation: fadeInUp 1s ease 0.6s both;
+    flex-wrap: wrap;
+}
+
+.hero-buttons .btn {
+    min-width: 160px;
 }
 
 @keyframes fadeInUp {
